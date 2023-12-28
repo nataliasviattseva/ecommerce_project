@@ -21,3 +21,10 @@ python manage.py runserver
 
  admin
  Azerty123456
+
+ To use images
+ pip install pillow
+
+ python.exe -m pip install --upgrade pip
+
+python manage.py migrate
