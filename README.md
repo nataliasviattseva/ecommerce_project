@@ -15,3 +15,9 @@ python .\manage.py migrate
 
 To create a superuser
  python manage.py createsuperuser 
+
+Rerun server
+python manage.py runserver
+
+ admin
+ Azerty123456
