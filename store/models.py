@@ -13,7 +13,7 @@ class Customer(models.Model):
 
 class Product(models.Model):
     name = models.CharField(max_length=200)
-    price = models.FloatField()
+    price = models.DecimalField(max_digits=7, decimal_places=2)
     is_digital = models.BooleanField(default=False, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
 
@@ -71,8 +71,8 @@ class OrderItem(models.Model):
 
     @property
     def get_total(self):
-        totzl = self.product.price * self.quantity
-        return totzl
+        total = self.product.price * self.quantity
+        return total
 
 
 class ShippingAddress(models.Model):
