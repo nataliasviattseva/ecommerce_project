@@ -30,11 +30,11 @@
 
 
 ### Build the docker image:
-`docker build -t ecommerceProjet .`
+`docker build -t ecommerce .`
 
 
 ### Create and run container:
-`docker run -d -p 7000:80 --name webapp ecommerceProjet`
+`docker run -d -p 7000:80 --name webapp ecommerce`
 
 
 ### Build the project (from file docker-compose.yml):
