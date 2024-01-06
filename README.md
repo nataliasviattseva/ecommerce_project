@@ -34,8 +34,11 @@
 
 ### Create and run container:
 last that works: `sudo docker run -p 7000:7000 -it ecommerce`
+
 sudo docker run -it -p 8000:8000 ecommerce
+
 `docker run -d -p 7000:80 --name webapp ecommerce`
+
 
 
 ### Build the project (from file docker-compose.yml):
