@@ -13,8 +13,7 @@
 
 
 ### (Optional) Get ssh key to add to github: 
-`cd /root/.ssh`
-`cat id_rsa.pub`
+`cat /root/.ssh/id_rsa.pub`
 
 
 ### Clone the project:
