@@ -5,10 +5,10 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 # Définissez le répertoire de travail dans le conteneur
-WORKDIR /myDjangoProjet
+WORKDIR /ecommerce
 
 # Copiez le fichier requirements.txt dans le conteneur
-COPY requirements.txt /myDjangoProjet/
+COPY requirements.txt /ecommerce/
 
 # Installez les dépendances du projet
 RUN pip install -r requirements.txt
