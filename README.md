@@ -172,19 +172,10 @@ sudo apt install ansible
 
 -------
 
+# Other commands (for Django)
 
 
-
-
-
-
-
-
-
-
-
-
-Pip install Django
+pip install Django
 
 django-admin startproject ecommerce
 cd ecommerce
