@@ -18,23 +18,23 @@
 
 
 ### Clone the project:
-`git clone https://github.com/nataliasviattseva/myDjangoProjet.git`
+`git clone https://github.com/nataliasviattseva/ecommerce_project.git`
 
 
 ### Install Docker:
-`bash /myDjangoProjet/dockerInstallPierre.sh`
+`TBD: see docker docs`
 
 
 ### Go to the project dir:
-`cd /myDjangoProjet`
+`cd /ecommerce_project`
 
 
 ### Build the docker image:
-`docker build -t myDjangoProjet .`
+`docker build -t ecommerceProjet .`
 
 
-### Create and run container (I've used 8000 port in docker files so here's also the same port, I don't know if is it possible to change it in the command...):
-`docker run -d -p 8000:80 --name webapp myDjangoProjet`
+### Create and run container:
+`docker run -d -p 7000:80 --name webapp ecommerceProjet`
 
 
 ### Build the project (from file docker-compose.yml):
