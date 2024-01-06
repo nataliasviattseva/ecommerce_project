@@ -33,6 +33,7 @@
 
 
 ### Create and run container:
+sudo docker run -it -p 8000:8000 ecommerce
 `docker run -d -p 7000:80 --name webapp ecommerce`
 
 
