@@ -2,8 +2,8 @@
 .gitignore
 node_modules
 npm-debug.log
-_scripts/Dockerfile
-_scripts/docker-compose.yml
+Dockerfile*
+docker-compose*
 README.md
 LICENSE
 .vscode
