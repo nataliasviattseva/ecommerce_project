@@ -8,13 +8,13 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /ecommerce
 
 # Copiez le fichier requirements.txt dans le conteneur
-COPY requirements.txt /ecommerce/
+COPY ../requirements.txt /ecommerce/
 
 # Installez les dépendances du projet
 RUN pip install -r requirements.txt
 
 # Copiez le reste des fichiers dans le conteneur
-COPY . .
+COPY .. .
 
 # Exposez le port sur lequel votre application Django s'exécute
 EXPOSE 7000

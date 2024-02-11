@@ -79,11 +79,11 @@ DATABASES = {
     'default': {
         #'ENGINE': 'django.db.backends.sqlite3',
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
+        'NAME': 'mydatabase',
         'USER': 'postgres',
-        'PASSWORD': '-4d13cD3d1EDeCD36E334af6EbDBDe4e',
-        'HOST': 'roundhouse.proxy.rlwy.net',
-        'PORT': '12010',
+        'PASSWORD': 'password',
+        'HOST': '192.168.187.138',
+        'PORT': '5432',
     }
 }
 
