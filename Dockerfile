@@ -8,7 +8,7 @@ ENV PYTHONUNBUFFERED=1
 WORKDIR /ecommerce
 
 # Copiez le fichier requirements.txt dans le conteneur
-COPY ../requirements.txt /ecommerce/
+COPY requirements.txt /ecommerce/
 
 # Installez les dépendances du projet
 RUN pip install -r requirements.txt
