@@ -25,7 +25,7 @@
 
 
 ### Go to the project dir:
-`cd /ecommerce_project`
+`cd /ecommerce_project/bash_scripts`
 
 
 ### Build the docker image:
