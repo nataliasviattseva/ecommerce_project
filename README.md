@@ -179,12 +179,12 @@ sudo apt install ansible
 # Other commands (for Django)
 
 
-pip install Django
+pip install -r requirements.txt
 
-django-admin startproject ecommerce
-cd ecommerce
+# django-admin startproject ecommerce
+# cd ecommerce
 
-python manage.py startapp store
+# python manage.py startapp store
 
 python manage.py runnserver
 
@@ -195,7 +195,7 @@ To apply the changes
 python .\manage.py migrate
 
 To create a superuser
- python manage.py createsuperuser 
+python manage.py createsuperuser 
 
 Rerun server
 python manage.py runserver
