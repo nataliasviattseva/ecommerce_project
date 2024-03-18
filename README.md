@@ -82,10 +82,10 @@ python manage.py createsuperuser
 
 pip install -r requirements.txt
 
-# django-admin startproject ecommerce
-# cd ecommerce
+django-admin startproject ecommerce
+cd ecommerce
 
-# python manage.py startapp store
+python manage.py startapp store
 
 python manage.py runnserver
 
