@@ -1,7 +1,7 @@
 # Run Django web project with Docker
 
 ### Update and upgrade
-`sudo apt update && apt full-upgrade`
+`sudo apt update && sudo apt full-upgrade`
 
 ### Install Git:
 `sudo apt-get install -y git`
