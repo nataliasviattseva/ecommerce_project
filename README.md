@@ -76,7 +76,9 @@ When you're done, you can stop and remove the PostgreSQL container:
 # Create superuser while first run the project
 python manage.py createsuperuser 
 
-
+------
+# Connecter under the admin user
+http://ip:7000/admin/
 ------
 # Commandes utiles:
 
