@@ -24,7 +24,7 @@ or
 `cd ./ecommerce_project`
 
 ### Build the docker image:
-`docker build -t ecommerce .`
+`sudo docker build -t ecommerce .`
 
 ### Create and run container:
 `sudo docker run -p 7000:7000 -dit ecommerce`
