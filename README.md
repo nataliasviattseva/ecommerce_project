@@ -102,3 +102,6 @@ python manage.py createsuperuser
 
 Rerun server
 python manage.py runserver
+
+Apply db 
+python manage.py migrate --run-syncdb
