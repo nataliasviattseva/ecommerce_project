@@ -1,0 +1,20 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: ecommerce
+spec:
+  replicas: 2
+  selector:      # tells the controller which pods to watch/belong to
+    matchLabels:
+      app: ecommerce
+  template:
+    metadata:
+      labels:
+        app: ecommerce
+    spec:
+      containers:
+      - name: kprogect
+        image: nataliasv/ecommerce
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
